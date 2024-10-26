@@ -1,12 +1,11 @@
 import {
-    blackImg,
-    blueImg,
+  airpodsImg,
+  appleWatchImg,
     highlightFirstVideo,
     highlightFourthVideo,
     highlightSecondVideo,
     highlightThirdVideo,
-    whiteImg,
-    yellowImg,
+    macImg,
   } from "../utils";
   
   export const navLists = ["Store", "Mac", "iPhone", "Support"];
@@ -46,37 +45,28 @@ import {
     },
   ];
   
-  export const models = [
-    {
-      id: 1,
-      title: "iPhone 15 Pro in Natural Titanium",
-      color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
-      img: yellowImg,
-    },
-    {
-      id: 2,
-      title: "iPhone 15 Pro in Blue Titanium",
-      color: ["#53596E", "#6395ff", "#21242e"],
-      img: blueImg,
-    },
-    {
-      id: 3,
-      title: "iPhone 15 Pro in White Titanium",
-      color: ["#C9C8C2", "#ffffff", "#C9C8C2"],
-      img: whiteImg,
-    },
-    {
-      id: 4,
-      title: "iPhone 15 Pro in Black Titanium",
-      color: ["#454749", "#3b3b3b", "#181819"],
-      img: blackImg,
-    },
-  ];
+export const significantOthers = [
+  {
+    id: 1,
+    title: "iPhone & Apple Watch",
+    text: "Misplaced your iPhone? The latest Apple Watch models can show you its approximate distance and direction.17 To set up a group photo on your iPhone, join the group and use Apple Watch as a viewfinder to snap the shot. And when you take a call on your Apple Watch, just tap your iPhone to continue the conversation there.",
+    img: appleWatchImg
+   },
+  {
+    id: 1,
+    title: "iPhone & Mac",
+    text: "You can answer calls or messages from your iPhone directly on your Mac. Copy images, video, or text from your iPhone, then paste into another app on your nearby Mac. And with iCloud, you can access your favorite files from either your iPhone or Mac.",
+    img: macImg
+   },
+  {
+    id: 1,
+    title: "iPhone & Airpods",
+    text: "Set up AirPods on iPhone with just a tap. You’ll love Adaptive Audio, which automatically tailors the noise control to provide the best listening experience across different environments and interactions throughout the day.",
+    img: airpodsImg
+   },
+ ]
   
-  export const sizes = [
-    { label: '6.1"', value: "small" },
-    { label: '6.7"', value: "large" },
-  ];
+ 
   
   export const footerLinks = [
     "Privacy Policy",

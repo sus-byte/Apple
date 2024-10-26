@@ -28,6 +28,10 @@ import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
+import airpods from "/assets/images/airpods.jpg"
+import mac from "/assets/images/mac.png"
+import appleWatch from "/assets/images/appleWatch.png"
+import difference from "/assets/images/difference.jpg"
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
@@ -55,3 +59,9 @@ export const explore1Img = explore1;
 export const explore2Img = explore2;
 export const chipImg = chip;
 export const frameImg = frame;
+
+export const appleWatchImg = appleWatch;
+export const macImg = mac;
+export const airpodsImg = airpods;
+
+export const differenceImg = difference;
